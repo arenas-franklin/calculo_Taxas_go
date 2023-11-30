@@ -25,7 +25,7 @@ func (c *Car) ChangeColor(color string){
 // 
 func main(){
 
-	order,err := entity.NewOrder("1", 10, 1)
+	order,err := entity.NewOrder("1", -10, 1)
 	if err != nil{
 		println(err.Error())
 	}else{

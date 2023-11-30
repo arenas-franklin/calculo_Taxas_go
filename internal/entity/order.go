@@ -20,7 +20,7 @@ func NewOrder(id string, price float64, tax float64) (*Order, error) {
 	if err != nil{
 		return nil, err
 	}
-	return order, nill 
+	return order, nil 
 }
 
 func (o *Order) Validate () error{
